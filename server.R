@@ -62,7 +62,7 @@ shinyServer(function(input, output, session) {
         
         isolate({
             plot(c(1,n +1), 0:1, type = "n", axes = F, xlab = NA, ylab = NA)
-            axis(2, at = c(.25, .75), labels = c("Actual", "Guess"), tick = FALSE, las = 2)
+            axis(2, at = c(.25, .75), labels = c("Actual\nResult", "Your\nGuess"), tick = FALSE, las = 2)
 
             redpred <- all$prediction$number[prediction$color %in% "red"]
             redact <-  all$actual$number[actual$color %in% "red"]
