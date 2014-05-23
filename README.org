@@ -1,0 +1,7 @@
+* Guessing Game
+
+This is a re-creation in ~shiny~ of the Guessing Game.  The [[http://www.tc.umn.edu/~delma001/GuessingGame][original Java version]] was created by Robert delMas at the University of Minnesota, but Java does not always work well on students' computers.
+
+Also included in the repository is ~create-animation.R~, which creates an animated GIF that shows a sequence of flashing boxes (75% light green, 25% dark red) that students can use to guide their playing of the game, with the help of the ~animation~ package.  The resulting GIF is available as the file ~animation.gif~ in the repository.
+
+This ~shiny~ app is available live at http://statisfactions.shinyapps.io/guessing-game/, but this may not be available indefinitely (this was put up through the ~shinyapps~ beta testing, which has now ended).
